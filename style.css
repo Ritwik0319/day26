@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav {
+    position: sticky;
+    top: 0;
+    display: grid;
+    height: 6vh;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: rgb(78, 76, 76);
+    background: white;
+    align-content: center;
+}
+.fa-solid {
+    font-size: 1.5rem;
+}
+.hero {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 4rem 13rem 2rem;
+}
+.item img {
+    height: 48vh;
+    width: 90%;
+}
+.title, .content, .contant1 {
+    text-align: center;
+    margin: 1.4rem;
+}
+.title {
+    font-size: 1.5rem;
+    color: rgb(82, 81, 81);
+}
+.content, .contant1 {
+    color: grey;
+}
+.center {
+    text-align: center;
+    margin: 5rem;
+}
+.center a {
+    font-size: 1.1rem;
+    padding: .8rem 1rem;
+}
+.arro {
+    color: rgb(108, 107, 107);
+}
+a:hover {
+    background-color: rgb(52, 49, 49);
+    color: white;
+}
+#one {
+    background: rgb(212, 212, 212);
+}
+.line {
+    border: 1px solid rgb(200, 199, 199);
+    margin: 0 13rem;
+}
+.about {
+    display: grid;
+    justify-content: center;
+    margin: 5rem 5rem 0rem;
+    align-items: center;
+}
+.ab-title {
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: rgb(90, 90, 90);
+}
+.ab-title1 {
+    font-size: 1.5rem;
+    display: grid;
+    justify-content: center;
+    color: rgb(31, 30, 30);
+    margin: 1rem 0rem ;
+    font-size: 1.5rem;
+}
+.abt-dis {
+    display: grid;
+    justify-content: center;
+    padding: 1rem 0;
+    color: rgb(92, 91, 91);
+    text-align: center;
+}
+.abt-dis1 {
+    display: grid;
+    justify-content: center;
+    margin: .2rem 13rem 7rem;
+    color: rgb(92, 91, 91);
+    text-align: center;
+    line-height: 1.4rem;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 4rem 13rem 2rem;    
+}
+.f-tit {
+    font-size: 1.4rem;
+    color: rgb(19, 19, 19);
+}
+.itm1con {
+    font-size: .8rem;
+    margin: 1rem 0;
+}
+.imgfot {
+    height: 6rem;
+    padding-top: 1rem;
+}
+.mid {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+}
+.mid1 p, .mid2 p{
+    margin-top: .5rem;
+}
+.mid1, .mid2 {
+    display: grid;
+    grid-template-columns: 20% 90%;
+    align-items: end;
+}
+.mid1 img, .mid2 img {
+    height: 4rem;
+}
+.btns {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+}
+.btns p {
+    background: rgb(66, 66, 66);
+    margin: .3rem ;
+    display: grid;
+    text-align: center;
+    height: 1rem;
+    color: white;
+    font-size: .9rem;
+}
+#btn1 {
+    display: grid;
+    align-self: top;
+    align-items: center;
+    height: 1.5rem;  
+}
