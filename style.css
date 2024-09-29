@@ -230,9 +230,11 @@ a:hover {
 @media screen and (width>576px) and (width<=768px) {
     .hero {
         margin: 1rem 2rem;
+        grid-template-columns: auto auto;
+        width: 95%;
     }
     .item img {
-        height: 40vh;
+        height: 60vh;
         width: 90%;
     }
     .title {
