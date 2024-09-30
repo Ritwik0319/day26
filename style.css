@@ -6,6 +6,7 @@
 html {
     font-family: sans-serif;
     scroll-padding-top: 7vh;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -175,10 +176,10 @@ a:hover {
     }
     .hero {
         grid-template-columns: auto;
-        margin: 1rem 2rem;
+        margin: 1rem 1rem;
     }
     .item img {
-        height: 85vh;
+        height: 80vh;
         width: 100%;
     }
     .title {
@@ -186,6 +187,10 @@ a:hover {
     }
     .content {
         color: rgb(129, 129, 129);
+    }
+    .center a {
+        font-size: 1.1rem;
+        padding: .8rem .5rem;
     }
     .about {
         margin: 0;
@@ -234,7 +239,7 @@ a:hover {
         width: 95%;
     }
     .item img {
-        height: 60vh;
+        height: 50vh;
         width: 90%;
     }
     .title {
